@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="74.056" tests="4" skipped="0" failures="3" errors="0">
+<testcase classname="As a user i want to login the orange hrm page so that" name="As a user i want to login the orange hrm page with valid credencials" time="28.125">
+<system-out><![CDATA[
+Given user launches the orangehrm page in the browser.......................passed
+When user enter the username "Admin" in the orangehrm page username field...passed
+And user enter the password "admin123" in the orangehrm page password field.passed
+And user click on the orangehrm page login button...........................passed
+Then user should see the orangehrm page dashboard...........................passed
+]]></system-out>
+</testcase>
+<testcase classname="As a user i want to login the orange hrm page so that" name="As a user i want lo login the orangehrm page with invalid credencial - Example #1.1" time="17.41">
+<failure type="java.lang.AssertionError">
+<![CDATA[java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.test.OrangehrmLoginTest.user_should_see_the_orangehrm_page_login_page(OrangehrmLoginTest.java:67)
+	at ✽.user should see the orangehrm page login page(file:///C:/Users/Admin/eclipse-workspace/Cucumber_9am_july22_2025/./src/test/resources/FeatureFile/Orangehrm.feature:20)
+]]>
+</failure>
+<system-out><![CDATA[
+Given user launches the orangehrm page in the browser.......................passed
+When user enter the username "oranium" in the orangehrm page username field.passed
+And user enter the password "oranium123" in the orangehrm page password field.passed
+And user click on the orangehrm page login button...........................passed
+Then user should see the orangehrm page login page..........................failed
+]]></system-out>
+</testcase>
+<testcase classname="As a user i want to login the orange hrm page so that" name="As a user i want lo login the orangehrm page with invalid credencial - Example #1.2" time="14.968">
+<failure type="java.lang.AssertionError">
+<![CDATA[java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.test.OrangehrmLoginTest.user_should_see_the_orangehrm_page_login_page(OrangehrmLoginTest.java:67)
+	at ✽.user should see the orangehrm page login page(file:///C:/Users/Admin/eclipse-workspace/Cucumber_9am_july22_2025/./src/test/resources/FeatureFile/Orangehrm.feature:20)
+]]>
+</failure>
+<system-out><![CDATA[
+Given user launches the orangehrm page in the browser.......................passed
+When user enter the username "priya" in the orangehrm page username field...passed
+And user enter the password "priya123" in the orangehrm page password field.passed
+And user click on the orangehrm page login button...........................passed
+Then user should see the orangehrm page login page..........................failed
+]]></system-out>
+</testcase>
+<testcase classname="As a user i want to login the orange hrm page so that" name="As a user i want lo login the orangehrm page with invalid credencial - Example #1.3" time="13.176">
+<failure type="java.lang.AssertionError">
+<![CDATA[java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at org.test.OrangehrmLoginTest.user_should_see_the_orangehrm_page_login_page(OrangehrmLoginTest.java:67)
+	at ✽.user should see the orangehrm page login page(file:///C:/Users/Admin/eclipse-workspace/Cucumber_9am_july22_2025/./src/test/resources/FeatureFile/Orangehrm.feature:20)
+]]>
+</failure>
+<system-out><![CDATA[
+Given user launches the orangehrm page in the browser.......................passed
+When user enter the username "kavi" in the orangehrm page username field....passed
+And user enter the password "kavi123" in the orangehrm page password field..passed
+And user click on the orangehrm page login button...........................passed
+Then user should see the orangehrm page login page..........................failed
+]]></system-out>
+</testcase>
+</testsuite>

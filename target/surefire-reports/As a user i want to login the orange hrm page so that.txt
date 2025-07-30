@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: As a user i want to login the orange hrm page so that
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 73.088 s <<< FAILURE! - in As a user i want to login the orange hrm page so that
+As a user i want lo login the orangehrm page with invalid credencial #1(As a user i want to login the orange hrm page so that)  Time elapsed: 16.594 s  <<< FAILURE!
+java.lang.AssertionError
+
+As a user i want lo login the orangehrm page with invalid credencial #2(As a user i want to login the orange hrm page so that)  Time elapsed: 12.356 s  <<< FAILURE!
+java.lang.AssertionError
+
+As a user i want lo login the orangehrm page with invalid credencial #3(As a user i want to login the orange hrm page so that)  Time elapsed: 13.762 s  <<< FAILURE!
+java.lang.AssertionError
+
